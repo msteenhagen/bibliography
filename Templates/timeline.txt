@@ -1,0 +1,34 @@
+"Event Title"	"Start Date"	"End Date"	"Arc"	"Label"	"Tags"	"Participants"	"Notes"
+<$publications>
+<$pubType=book?>
+"<$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Title.stringByDeTeXifyingString/>"	"<$fields.Year/>-01-01 00:00:00 CE"	"<$fields.Year/>-01-01 00:00:00 CE"	"Global"	"Books"	"Book"	""	"<$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Title.stringByDeTeXifyingString/><$fields.Edition?> (<$fields.Edition/>)</$fields.Edition?>. <$fields.Address?><$fields.Address/>:</$fields.Address?> <$fields.Publisher/>."
+
+<?$pubType=inbook?>
+"<$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Title.stringByDeTeXifyingString/>"	"<$fields.Year/>-01-01 00:00:00 CE"	"<$fields.Year/>-01-01 00:00:00 CE"	"Global"	"Chapters"	"Chapter"	""	"<$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Chapter/>. In <$editors.abbreviatedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/><$editors.@count=0?><?$editors.@count=1?> (Ed.), <?$editors.@count?> (Eds.), </$editors.@count?><$fields.Title/><$fields.Pages?> (pp. <$fields.Pages/>)</$fields.Pages?>. <$fields.Address?><$fields.Address/>: </$fields.Address?><$fields.Publisher/>."
+
+<?$pubType=incollection?>
+"<$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Title.stringByDeTeXifyingString/>"	"<$fields.Year/>-01-01 00:00:00 CE"	"<$fields.Year/>-01-01 00:00:00 CE"	"Global"	"Chapters"	"Chapter"	""	"<$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Title.stringByRemovingTeX/>. In <$editors.abbreviatedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/><$editors.@count=0?><?$editors.@count=1?> (Ed.), <?$editors.@count?> (Eds.), </$editors.@count?><$fields.Booktitle/><$fields.Pages?> (pp. <$fields.Pages/>)</$fields.Pages?>. <$fields.Address?><$fields.Address/>: </$fields.Address?><$fields.Publisher/>."
+
+<?$pubType=article?>
+"<$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Title.stringByDeTeXifyingString/>"	"<$fields.Year/>-01-01 00:00:00 CE"	"<$fields.Year/>-01-01 00:00:00 CE"	"Global"	"Articles"	"Article"	""	"<$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Title.stringByRemovingTeX/>. <$fields.Journal/><$fields.Volume?>, <$fields.Volume/></$fields.Volume?><$fields.Number?>(<$fields.Number/>)</$fields.Number?><$fields.Pages?>, <$fields.Pages/></$fields.Pages?>. <$fields.Url?><$fields.Url/></$fields.Url?>"
+
+<?$pubType=inproceedings?>
+"<$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Title.stringByDeTeXifyingString/>"	"<$fields.Year/>-01-01 00:00:00 CE"	"<$fields.Year/>-01-01 00:00:00 CE"	"Global"	"Proceedings"	"Proceedings"	""	"<$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Title/>. In <$fields.Booktitle/><$fields.Address?>, <$fields.Address/>, <$fields.Year/></$fields.Address?><$fields.Pages?> (pp. <$fields.Pages/>)</$fields.Pages?>. <$fields.Publisher?><$fields.Publisher/>.</$fields.Publisher?>"
+
+<?$pubType=phdthesis?>
+"<$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Title.stringByDeTeXifyingString/>"	"<$fields.Year/>-01-01 00:00:00 CE"	"<$fields.Year/>-01-01 00:00:00 CE"	"Global"	"PhD Dissertation"	"PhD Dissertation"	""	"<$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Title/>. Ph.D. dissertation, <$fields.Department?>Department of <$fields.Department/>, </$fields.Department?><$fields.School/>."
+
+<?$pubType=mastersthesis?>
+"<$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Title.stringByDeTeXifyingString/>"	"<$fields.Year/>-01-01 00:00:00 CE"	"<$fields.Year/>-01-01 00:00:00 CE"	"Global"	"MA Dissertation"	"MA Dissertation"	""	"<$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Title/>. Masters thesis, <$fields.Department?>Department of <$fields.Department/>, </$fields.Department?><$fields.School/>."
+
+<?$pubType=unpublished?>
+"<$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Title.stringByDeTeXifyingString/>"	"<$fields.Year/>-01-01 00:00:00 CE"	"<$fields.Year/>-01-01 00:00:00 CE"	"Global"	"Unpublished"	"Unpublished"	""	"<$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Title/>. <$fields.Note/>."
+
+<?$pubType=techreport?>
+
+<?$pubType=electronic?>
+
+<?$pubType=webpage?>
+
+</$pubType?>
+</$publications>
