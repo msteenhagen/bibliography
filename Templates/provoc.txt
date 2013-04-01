@@ -1,0 +1,13 @@
+<$publications>
+<$pubType=article?>
+<$authors.normalizedName.@componentsJoinedByCommaAndAnd/>,<$fields.Title.uppercaseFirst?> '<$fields.Title.uppercaseFirst/>'</$fields.Title.uppercaseFirst?> 	<$fields.Journal.stringByPrependingSpaceIfNotEmpty/>,<$fields.Volume.stringByPrependingSpaceIfNotEmpty?><$fields.Volume.stringByPrependingSpaceIfNotEmpty/> </$fields.Volume.stringByPrependingSpaceIfNotEmpty?><$fields.Year?>(<$fields.Year/>)</$fields.Year?>,<$fields.Pages.stringByPrependingSpaceIfNotEmpty/>
+
+<?$pubType=book?>
+<$authors.normalizedName.@componentsJoinedByCommaAndAnd/><$editors.normalizedName.@componentsJoinedByCommaAndAnd?><$editors.normalizedName.@componentsJoinedByCommaAndAnd/>, eds</$editors.normalizedName.@componentsJoinedByCommaAndAnd?>, <$fields.Title.stringByAppendingSpaceIfNotEmpty?> <$fields.Title.stringByAppendingSpaceIfNotEmpty/></$fields.Title.stringByAppendingSpaceIfNotEmpty?>	(<$fields.Publisher/>,<$fields.Year.stringByPrependingSpaceIfNotEmpty/>)
+
+<?$pubType=incollection?>
+<p><$authors.normalizedName.@componentsJoinedByCommaAndAnd/>,<$fields.Title?> '<$fields.Title/>'</$fields.Title?>, in <i><$fields.Booktitle.stringByPrependingSpaceIfNotEmpty/></i><$fields.Volume?>, vol. <$fields.Volume/></$fields.Volume?><$editors.name.@componentsJoinedByCommaAndAnd?>, ed. by <$editors.name.@componentsJoinedByCommaAndAnd/></$editors.name.@componentsJoinedByCommaAndAnd?><$fields.Publisher?> (<$fields.Publisher/></$fields.Publisher?><$fields.Year.stringByPrependingCommaAndSpaceIfNotEmpty/>), pp.<$fields.Pages.stringByPrependingSpaceIfNotEmpty/><?$pubType?></p>
+
+<$authors.name.@componentsJoinedByCommaAndAnd/>,<$fields.Title.uppercaseFirst?> '<$fields.Title.uppercaseFirst/>'</$fields.Title.uppercaseFirst?>,<$fields.Journal.stringByPrependingSpaceIfNotEmpty/>,<$fields.Volume.stringByPrependingSpaceIfNotEmpty?><$fields.Volume.stringByPrependingSpaceIfNotEmpty/> </$fields.Volume.stringByPrependingSpaceIfNotEmpty?><$fields.Year?>(<$fields.Year/>)</$fields.Year?>,<$fields.Pages.stringByPrependingSpaceIfNotEmpty/></$pubType?>
+
+</$publications>
