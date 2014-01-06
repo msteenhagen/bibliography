@@ -1,0 +1,22 @@
+<$publications>
+<$pubType=book?><$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Title/><$fields.Edition?> (<$fields.Edition/>)</$fields.Edition?>. <$fields.Address?><$fields.Address/>:</$fields.Address?> <$fields.Publisher/>. 
+
+<?$pubType=inbook?><$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Chapter/>. In <$editors.abbreviatedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/><$editors.@count=0?><?$editors.@count=1?> (Ed.), <?$editors.@count?> (Eds.), </$editors.@count?><$fields.Title/><$fields.Pages?> (pp. <$fields.Pages/>)</$fields.Pages?>. <$fields.Address?><$fields.Address/>: </$fields.Address?><$fields.Publisher/>. 
+
+<?$pubType=article?><$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Title/>. <$fields.Journal/><$fields.Volume?>, <$fields.Volume/></$fields.Volume?><$fields.Number?>(<$fields.Number/>)</$fields.Number?><$fields.Pages?>, <$fields.Pages/></$fields.Pages?>. <$fields.Url?><$fields.Url/></$fields.Url?>
+
+<?$pubType=inproceedings?><$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Title/>. In <$fields.Booktitle/><$fields.Address?>, <$fields.Address/>, <$fields.Year/></$fields.Address?><$fields.Pages?> (pp. <$fields.Pages/>)</$fields.Pages?>. <$fields.Publisher?><$fields.Publisher/>.</$fields.Publisher?>
+
+<?$pubType=phdthesis?><$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Title/>. Ph.D. dissertation, <$fields.Department?>Department of <$fields.Department/>, </$fields.Department?><$fields.School/>. 	
+
+<?$pubType=mastersthesis?><$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Title/>. Masters thesis, <$fields.Department?>Department of <$fields.Department/>, </$fields.Department?><$fields.School/>. 	
+
+<?$pubType=unpublished?><$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Title/>. <$fields.Note/>. 
+
+<?$pubType=techreport?><$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Year/>). <$fields.Title/>. <$fields.Institution/>. 
+
+<?$pubType=electronic?><$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Urldate/>). <$fields.Title/>. <$fields.Organization/>. Electronic document, <$fields.Url/>, accessed <$fields.Lastchecked/>.
+
+<?$pubType=webpage?><$authors.abbreviatedNormalizedName.stringByRemovingTeX.@componentsJoinedByCommaAndAmpersand/> (<$fields.Urldate/>). <$fields.Title/>. <$fields.Organization?><$fields.Organization/>. </$fields.Organization?>Retrieved <$fields.Lastchecked/> from <$fields.Url/>.
+
+</$pubType?></$publications>
