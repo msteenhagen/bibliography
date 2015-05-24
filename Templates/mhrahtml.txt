@@ -1,2 +1,0 @@
-<$publications>
-<$authors.name.@componentsJoinedByCommaAndAnd/><i><$fields.Title/></i></$publications>
